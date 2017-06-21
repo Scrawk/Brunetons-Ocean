@@ -6,7 +6,7 @@ The focus of the project is the BRDF lighting model which looks very nice and is
 
 You can find some settings on the ocean game object in the scene. You can change the wind speed, wave decay factor, wave amplitude, and the Fourier transform size. These settings are only used on start up however and will have no effect during run time. If you want to change them during run time you will need to regenerate the wave spectrum. Its only done on start up in this project. If your looking for what setting will make the waves bigger its the wind speed.
 
-See home page for more information.
+See [home page](https://www.digital-dust.com/single-post/2017/03/30/Brunetons-ocean-in-Unity) for more information.
 
 ![Brunetons Ocean](https://static.wixstatic.com/media/1e04d5_31b8c4569ee049a8927c7a2260e1ef30~mv2.jpg/v1/fill/w_550,h_550,al_c,q_80,usm_0.66_1.00_0.01/1e04d5_31b8c4569ee049a8927c7a2260e1ef30~mv2.jpg)
 
