@@ -13,4 +13,4 @@ In Erics project he did use a projected grid for the ocean mesh but the implemen
  
 Below is a image of the projected grid. You can see the mesh is projected from the camera and its shape matches the camera frustum.
 
-![Projected Grid](./Media/BrunetonsOcean1jpg)
+![Projected Grid](./Media/BrunetonsOcean2.jpg)
