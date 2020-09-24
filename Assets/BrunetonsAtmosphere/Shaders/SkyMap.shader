@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 
 Shader "BrunetonsAtmosphere/SkyMap" 
 {
@@ -28,7 +30,7 @@ Shader "BrunetonsAtmosphere/SkyMap"
 			v2f vert(appdata_base v)
 			{
     			v2f OUT;
-    			OUT.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+    			OUT.pos = UnityObjectToClipPos(v.vertex);
     			OUT.uv = (v.texcoord.xy-0.5)*2.2;
     			return OUT;
 			}
