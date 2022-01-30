@@ -14,3 +14,11 @@ In Erics project he did use a projected grid for the ocean mesh but the implemen
 Below is a image of the projected grid. You can see the mesh is projected from the camera and its shape matches the camera frustum.
 
 ![Projected Grid](./Media/BrunetonsOcean2.jpg)
+
+List of water projects.
+
+[Ceto](https://github.com/Scrawk/Ceto)\
+[Phillips ocean.](https://github.com/Scrawk/Phillips-Ocean)\
+[Brunetons Ocean.](https://github.com/Scrawk/Brunetons-Ocean)\
+[Tiled-directional flow.](https://github.com/Scrawk/Tiled-Directional-Flow)\
+[PBD Fluid sim.](https://github.com/Scrawk/PBD-Fluid-in-Unity)
