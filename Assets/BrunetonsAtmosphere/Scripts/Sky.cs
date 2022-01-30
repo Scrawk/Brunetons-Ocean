@@ -25,7 +25,7 @@ namespace BrunetonsAtmosphere
 
         public string m_filePath = "/BrunetonsAtmosphere/Textures";
 
-        public Material m_skyMapMaterial;
+        public Material m_skyMapMaterial;			// public variable
 
         public Material m_skyMaterial;
 
@@ -43,10 +43,11 @@ namespace BrunetonsAtmosphere
 
         private Texture2D m_transmittance, m_irradiance;
 
-        private Texture3D m_inscatter;
+        private Texture3D m_inscatter;			//private variable
 
         private void Start()
         {
+	// Start method run only one time
 
             m_skyMap = new RenderTexture(512, 512, 0, RenderTextureFormat.ARGBHalf, RenderTextureReadWrite.Linear);
             m_skyMap.filterMode = FilterMode.Trilinear;
@@ -100,7 +101,7 @@ namespace BrunetonsAtmosphere
             pos.y = 0.0f;
 
             //centre sky dome at player pos
-            transform.localPosition = pos;
+            transform.localPosition = pos; 
 
             UpdateMat(m_skyMapMaterial);
             UpdateMat(m_skyMaterial);
